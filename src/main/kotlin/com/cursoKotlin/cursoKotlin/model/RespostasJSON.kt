@@ -1,4 +1,6 @@
 package com.cursoKotlin.cursoKotlin.model
 
-class RespostasJSON {
+import java.util.*
+
+data class RespostasJSON(val message:String = "",var dataHora: Date) {
 }
